@@ -4,6 +4,167 @@
 	<title></title>
 </head>
 <body>
+	<div>
+            <h1 style="text-align: center;">arduino esp8266</h1>
+            <table style="margin-left: 200px; margin-right: 200px;" border="1" cellspacing="0" cellpadding="0" align="center">
+                <tr>
+                    <td colspan="1" align="center" valign="middle">
+                        <img src="ard1.jpg" width="200px">
+                    </td>
+                    <td colspan="1" align="center" valign="middle">
+                        <img src="ard11.jpg" width="200px">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="left" valign="top">
+                        <span>
+                            Описание: <br>
+                            <br>
+                            ESP8266 – микроконтроллер с интерфейсом WiFi, который 
+                            имеет возможность исполнять программы из флеш-памяти.  
+                            Устройство было выпущено в 2014 году китайской фирмой 
+                            Espressif и практически сразу же стало популярным.
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="left" valign="top">
+                        <span>
+                            Код подключения: <br>
+                            <br>
+                            не нашел
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" width="1920px" align="left" valign="top">
+                        <a href="https://arduinomaster.ru/platy-arduino/arduino-esp8266/#:~:text
+                        =Описание%20ESP8266,-ESP8266%20–%20микроконтроллер%20с&text=Поддерживает
+                        %20Wi-Fi%20протоколы%20802.11,в%20зависимости%20от%20выбранного%20режима.">Источник</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!------------------------------------------------------->
+        <div>
+            <h1 style="text-align: center;">Лазерный излучатель Laser Emiter</h1>
+            <table style="margin-left: 200px; margin-right: 200px;" border="1" cellspacing="0" cellpadding="0" align="center">
+                <tr>
+                    <td colspan="1" align="center" valign="middle">
+                        <img src="ard2.jpg" width="200px">
+                    </td>
+                    <td colspan="1" align="center" valign="middle">
+                        <img src="ard22.png" width="200px"
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="left" valign="top">
+                        <span>
+                            Описание: <br>
+                            <br>
+                            Устройство Keyes - одно из наиболее распространенных устройств в 
+                            наборах датчиков Arduino. В сочетании с другими компонентами его можно 
+                            использовать для создания растяжек или оптических эффектов. KY-008 
+                            особенно удобен, потому что он может питаться напрямую от выходного 
+                            контакта Arduino, поскольку он потребляет только 30 мА от процессора, 
+                            который имеет выходы, рассчитанные на 40 мА.
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="left" valign="top">
+                        <span>
+                            Код подключения: <br>
+                            <br>
+                            int laserPin = 10; <br>
+                            void setup () <br>
+                            { <br>
+                            pinMode (laserPin, OUTPUT); // define the digital output interface 13 feet <br>
+                            } <br>
+                            void loop () { <br>
+                            laserEmiter(laserPin,15,5); <br>
+                            } <br>
+                            void laserEmiter(int laserPin,int timeToBurn,int timeToRest){//made by Ilja Kazantsev <br>
+                            digitalWrite (laserPin, HIGH); // Turn Laser On <br>
+                            delay (timeToBurn);// delay while it burns <br>
+                            digitalWrite (laserPin, LOW); // Turn Laser Off <br>
+                            delay (timeToRest);//delay till new cicle <br>
+                            } <br>
+
+                            void setup () <br>
+                            { <br>
+                            pinMode (laserPin, OUTPUT); // define the digital output interface 13 feet <br>
+                            } <br>
+                            void loop () { <br>
+                            laserEmiter(laserPin,15,5); <br>
+                            } <br>
+                            void laserEmiter(int laserPin,int timeToBurn,int timeToRest){//made by Ilja Kazantsev <br>
+                            digitalWrite (laserPin, HIGH); // Turn Laser On <br>
+                            delay (timeToBurn);// delay while it burns <br>
+                            digitalWrite (laserPin, LOW); // Turn Laser Off <br>
+                            delay (timeToRest);//delay till new cicle <br>
+                            }
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" width="1920px" align="left" valign="top">
+                        <a href="http://scrumpoker.eu/специальные-проекты/arduino/библиотека-модулей-arduino/лазерный-излучатель-laser-emiter/">Источник</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!------------------------------------------------------->
+        <div>
+            <h1 style="text-align: center;">KY-018 Фоторезистор</h1>
+            <table style="margin-left: 200px; margin-right: 200px;" border="1" cellspacing="0" cellpadding="0" align="center">
+                <tr>
+                    <td colspan="1" align="center" valign="middle">
+                        <img src="ard3.jpg" width="200px">
+                    </td>
+                    <td colspan="1" align="center" valign="middle">
+                        <img src="ard33.jpg" width="200px"
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="left" valign="top">
+                        <span>
+                            Описание: <br>
+                            <br>
+                            ESP8266 – микроконтроллер с интерфейсом WiFi, который 
+                            имеет возможность исполнять программы из флеш-памяти.  
+                            Устройство было выпущено в 2014 году китайской фирмой 
+                            Espressif и практически сразу же стало популярным.
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="left" valign="top">
+                        <span>
+                            Код подключения: <br>
+                            <br>
+                            int sensorPin = 2; //define analog pin 2 <br>
+                            int value = 0; <br>
+                            void setup() { <br>
+                                Serial.begin(9600); <br>
+                            } <br>
+                            void loop() { <br>
+                                value = analogRead(sensorPin); <br>
+                                Serial.println(value, DEC); // light intensity <br>
+                                // high values for bright environment <br>
+                                // low values for dark environment <br>
+                                delay(100); <br>
+                            }
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="left" valign="top">
+                        <a href="http://scrumpoker.eu/arduino/photoresistor.php">Источник</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
     <div>
         <table border="1" cellspacing="0" cellpadding="0">
             <tr>
